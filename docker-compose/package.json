@@ -1,0 +1,15 @@
+{
+  "name": "docker-compose",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.12",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.10"
+  }
+}
