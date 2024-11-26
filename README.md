@@ -12,6 +12,6 @@ A comprehensive 2-day Docker workshop covering container basics to Docker Compos
 ## Getting Started
 
 ```bash
-git clone https://github.com/yourusername/docker-voyage-workshop
+git clone https://github.com/dannycahyo/docker-voyage-workshop
 cd docker-voyage-workshop
 ```
