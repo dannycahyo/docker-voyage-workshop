@@ -38,6 +38,7 @@ services:
 
   logstash:
     image: docker.elastic.co/logstash/logstash:7.17.13
+    container_name: logstash
     volumes:
       - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
       - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
@@ -69,6 +70,7 @@ services:
 
   cadvisor:
     image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
     volumes:
       - /:/rootfs:ro
       - /var/run:/var/run:rw
