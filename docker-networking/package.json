@@ -1,0 +1,14 @@
+{
+  "name": "docker-networking",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.12",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
